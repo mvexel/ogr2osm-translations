@@ -57,6 +57,7 @@ def filterTags(attrs):
         else:
             tags['surface'] = 'dirt'
 
-    tags['source'] = 'US Forest Service, https://data.fs.usda.gov/geodata/edw/datasets.php'
+    # tags['source'] = 'US Forest Service, https://data.fs.usda.gov/geodata/edw/datasets.php'
+    # this should go in the changeset
 
     return tags
