@@ -21,6 +21,7 @@ def filterTags(attrs):
     tags = {}
     
     tags['highway'] = 'track'
+    tags['operator'] = 'US Forest Service'
 
     # Override highway type if it's a collector
     if 'FUNCTIONAL' in attrs:
