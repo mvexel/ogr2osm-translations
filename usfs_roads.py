@@ -2,12 +2,10 @@
 # -*- coding: utf-8 -*-
 
 '''
-This translation file adds a __LAYER field to a datasource before translating it
-
-Copyright (c) 2012 Paul Norman
-<penorman@mac.com>
-Released under the MIT license: http://opensource.org/licenses/mit-license.php
-
+This is a translation file for the US National Forest System Roads shapefile.
+See a small sample (converted to GeoJSON) here: http://bl.ocks.org/d/1f2777005f18500730f2e500e377832c
+The data can be obtained here: https://data.fs.usda.gov/geodata/edw/datasets.php
+This is the link to the national file: https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.RoadCore_FS.zip (395MB!)
 '''
 
 from osgeo import ogr
